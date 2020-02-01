@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #647787;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo-text {
+  color: #1875f0;
+}
+.nav-container {
+  padding: 1.3rem;
+  display: flex;
+  justify-content: space-evenly;
+  /* flex-direction: column; */
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.menu {
+  display: none;
+}
+
+.nav-menu {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  width: 80%;
+  justify-content: space-between;
+}
+.items {
+  display: block;
+}
+
+/* Search Input */
+.nav-search-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-search,
+.nav-search-icon {
+  display: block;
+  font-size: 1.3rem;
+  border: none;
+}
+.nav-search {
+  width: 90%;
+  padding: 0.5rem;
+  outline: none;
+}
+
+/* Notification */
+.menu-notification-container {
+  position: relative;
+}
+
+.menu-notification-container .items {
+  font-size: 2rem;
+}
+
+.menu-notification-container span {
+  background-color: #1860ec;
+  text-align: center;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: -0.5rem;
+  right: -0.2rem;
+  display: inline-block;
+  color: white;
+}
+
+.user-profile {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.user-profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.user-profile-name {
+  position: relative;
+}
+.user-profile-name .user-profile-greeting {
+  margin-left: 3rem;
+}
+input:placeholder-shown {
+  font-size: 0.9rem;
+}
+
+/* Header Responsive Design */
+
+@media (max-width: 900px) {
+  .nav-container {
+    flex-direction: column;
+    align-items: unset;
+  }
+  .menu {
+    display: block;
+    font-size: 2rem;
+  }
+  .nav-menu-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-menu {
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+  .nav-menu .items {
+    margin-bottom: 1.1rem;
+  }
+  .menu-notification-container span {
+    right: 0.1rem;
+  }
+  /* .appear {
+    display: block;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+  } */
+}
