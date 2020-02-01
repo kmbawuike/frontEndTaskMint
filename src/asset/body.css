@@ -132,3 +132,64 @@ input:placeholder-shown {
     width: 100%;
   } */
 }
+
+/* Main */
+.main{
+  background-color: #F5F5F5;
+  display: flex;
+}
+
+.main-table-chart{
+  width: 80%;
+}
+
+/* Side Bar */
+.sidebar-container{
+  padding-left: 1.5rem;
+  width: 20%;
+  border: 1px solid black;
+  background-color: white;
+}
+.sidebar-container h2, h3{
+  font-weight: 200;
+  font-size: 1rem;
+}
+.overview-section button{
+  display: block;
+  margin: 1.3rem auto;
+  padding: 0.8rem;
+  font-weight: bold;
+  background-color: #27AE60;
+  color: white;
+  outline: none;
+  border-radius: 3rem;
+  border: none;
+}
+
+.overview-section h2{
+  margin-top: 3rem;
+}
+
+.icon{
+  display: block;
+  font-size: 2rem;
+  margin-right: 1.2rem;
+}
+.overview{
+  display: flex;
+  align-items: center;
+  margin-top: 0.7rem;
+}
+
+.special-heading{
+  margin-top: 3rem;
+}
+
+.merchant{
+  margin: 3rem 0;
+}
+
+.overview-color{
+  background: #e8f4f8;
+  border-left: 2px solid #1860ec;
+}
