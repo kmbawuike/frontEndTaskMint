@@ -11,7 +11,7 @@ const Header = () => {
       x.className += " appear";
     } else {
       x.className = "nav-menu";
-    }
+    } 
   }
   return (
     <Fragment>

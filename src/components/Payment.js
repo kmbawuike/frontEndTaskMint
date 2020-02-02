@@ -12,8 +12,8 @@ const Payment = () => {
           <div className="payment">
             <p className="payment-child">Showing</p>
             <div className="payment-number payment-child">
-              <span>20</span>
-              <MdKeyboardArrowDown className="payment-icon" />
+              <span className="total-blue">20</span>
+              <MdKeyboardArrowDown className="payment-icon total-blue" style/>
             </div>
           </div>
 
@@ -23,8 +23,15 @@ const Payment = () => {
               <input className="payment-search" placeholder="Search..." autoFocus />
             </div>
 
-            <div>
+            <div div className="select-container">
               <h4>Show</h4>
+              <select>
+                <option>All</option>
+                <option>Reconcilled</option>
+                <option>Un-reconcilled</option>
+                <option>Settled</option>
+                <option>Unsettled</option>
+              </select>
               
             </div>
           </div>

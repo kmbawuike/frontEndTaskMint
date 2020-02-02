@@ -1,7 +1,7 @@
 import React, {Fragment} from 'react'
 import Header from '../components/Header'
-import Main from '../components/Main'
 import '../asset/body.css'
+import Main from '../components/Main'
 
 
 const Body = ()=>{
